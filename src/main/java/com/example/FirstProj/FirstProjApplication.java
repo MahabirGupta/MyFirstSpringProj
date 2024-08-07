@@ -14,11 +14,11 @@ public class FirstProjApplication {
 //		create a context
 		ConfigurableApplicationContext context =SpringApplication.run(FirstProjApplication.class, args);
 //		creating the object of Alien class
-//		Alien alien = context.getBean(Alien.class);
-//		alien.show();
-//
-//		Alien alien1 = context.getBean(Alien.class);
-//		alien1.show();
+		Alien alien = context.getBean(Alien.class);
+		alien.show();
+
+		Alien alien1 = context.getBean(Alien.class);
+		alien1.show();
 
 
 		System.out.println("Welcome to boot...");
